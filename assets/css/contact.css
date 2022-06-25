@@ -1,0 +1,127 @@
+
+	body{
+		background 		 : #c3e3c3; 
+		background-size	 : cover;
+		padding 		 : 0;
+		margin 			 : 0; 
+	}
+
+/* Tema Navbar Custom */
+	.navbar-inverse{
+		background 		: #4cc5ad; 
+		border-bottom   : 0px solid #04c5ad; 
+	} 
+
+	.navbar-inverse .navbar-brand{
+		color: #ddd;
+	}
+
+	.navbar-inverse .navbar-brand:hover{
+		color: #fff;
+	}
+
+	.navbar-inverse .navbar-nav > li > a {
+  	color: #ddd;
+	}
+
+	.navbar-inverse .navbar-nav > li > a:hover,
+	.navbar-inverse .navbar-nav > li > a:focus {
+  	color: #fff;
+  	background-color: transparent;
+	}
+	
+	.navbar-inverse .navbar-nav > .active > a,
+	.navbar-inverse .navbar-nav > .active > a:hover,
+	.navbar-inverse .navbar-nav > .active > a:focus {
+  		color: #fff;
+  		background-color: #4cc5cd;
+			box-sizing: content-box;
+			border-bottom: 4px solid darkorange;
+	}
+
+	.navbar-inverse .navbar-toggle {
+  	border-color: #04c5ad;
+	}
+	.navbar-inverse .navbar-toggle:hover,
+	.navbar-inverse .navbar-toggle:focus {
+  	background-color: #4cc5ad;
+	}
+	.navbar-inverse .navbar-toggle .icon-bar {
+  	background-color: #fff;
+	}
+
+	.contact{
+		border-radius : 5px;  
+	}
+
+	#desc{
+		font-family : Verdana;
+		margin-top  : 10px; 
+		text-align  : center;
+		font-size   : 16px;  
+	}
+
+	#lead{
+		margin	 		: 20px;
+		color 			: c3c3c3; 
+		font-family 	: Tahoma; 
+	}
+
+	#head{
+		text-align  : center; 
+	}
+	
+	.input{
+		padding     : auto 15px; 
+		margin		: auto 10%;
+	} 
+	
+	.control-label{
+		margin: 0;
+	}
+	
+	.header{
+		margin 			: 26px;
+		margin-bottom   : 10px; 
+		padding-top		: 20px;
+		padding-bottom	: 0;
+		text-align		: center;
+		color 			: #000; 		
+	}
+	
+	/* Icon */
+
+	.icon{
+		margin: 30px;
+		text-align: center;
+	}
+
+	.icon > h3{
+		text-align: center;
+	}
+
+	 .iconbox{
+		display    : inline-block;
+		margin: 10px;
+		padding : 10px 15px;
+		text-align : center;   
+		background : #4cc5ad;  
+		border-radius: 5px;    
+	} 
+
+	.iconbox a{
+		color   : #fff; 
+	}
+
+	.iconbox:hover{
+		-webkit-transform: translateY(-8px);
+		-ms-transform: translateY(-8px);
+		-o-transform: translateY(-8px);
+		transform: translateY(-8px); 
+		-webkit-box-shadow: 0 10px 10px rgba(0,0,0,0.5);
+		box-shadow: 0 10px 10px rgba(0,0,0,0.5);
+		-webkit-transition: 0.7s;
+		-o-transition: 0.7s;
+		transition: 0.7s;
+		transition-timing-function: ease-in-out;
+	} 

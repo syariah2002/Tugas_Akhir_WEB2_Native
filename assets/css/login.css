@@ -1,0 +1,70 @@
+* {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+	outline: none;
+}
+
+body {
+	background-image: url(../img/a1.jpg);
+/*	background			: #ccc; */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	background-repeat	: no-repeat;
+}
+
+.login-form {
+    font: 16px/2em Lato, serif;
+	margin: 90px auto;
+	max-width: 400px;
+}
+
+form[role=login] {
+	color: #ffffff;
+	background: transparent;
+	padding: 26px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+	form[role=login] h1 {
+		font-family: Verdana;
+		color: #000;
+		display: block;
+		text-align: center;
+		margin: 0 auto;
+		margin-bottom: 20px;
+	}
+	form[role=login] input,
+	form[role=login] button {
+		font-size: 18px;
+		margin: 16px 0;
+	}
+	form[role=login] > div {
+		text-align: center;
+	}
+	
+	.form-links {
+		text-align: center;
+		margin-top: 10px;
+		font-size: 20px;
+	}
+
+	.form-links p{
+		font-size: 20px;
+		font-family: Tahoma;
+		color: #111;
+		font-weight: bold;
+	}
+
+	.form-links a {
+		color: #337ab7;
+		margin-bottom: 20px; 
+	}
+
+	.form-links a:hover{
+		color: #286090;
+		text-decoration: none;
+	}
